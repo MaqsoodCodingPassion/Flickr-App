@@ -28,12 +28,6 @@ This application implements the following concepts :
 * [MockWebServer][mockwebserver] for testing HTTP clients
 
 ## PREVIEW
-![Initial Loading](/screenshots/loading.png?raw=true "Loading Screen")
-![Photo List](/screenshots/photo_list.png?raw=true "Photo List Scren")
-![Sort by date](/screenshots/order_by.png?raw=true "Sort by date screen")
-![Search via tag](/screenshots/search_tag.png?raw=true "Search view screen")
-![Enter tag by text](/screenshots/search_edittext.png?raw=true "Search by tag screen")
-![Search results](/screenshots/search_results.png?raw=true "SearchResults screen")
-![Photo Detail](/screenshots/photo_detail.png?raw=true "Photo detail screen")
-
+![Alt Text](https://imgur.com/a/3xdZXOr.png)
+![Alt Text](https://imgur.com/a/wDxxC9P.png)
 

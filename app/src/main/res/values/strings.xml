@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">FlickrApp</string>
+    <string name="app_name">Flickr</string>
+    <string name="search">Search</string>
+    <string name="flickr_photo_list">Photo List</string>
+    <string name="flickr">Flickr</string>
+    <string name="search_str">Public Photos</string>
+    <string name="sort_by">SORT BY</string>
+    <string name="published_date">Published date</string>
+    <string name="no_photos_available">No photos available</string>
+    <string name="network">Network Error</string>
+    <string name="message">There might be something wrong with the network or the flickr server</string>
+    <string name="fragment_tag">fragment_alert</string>
+    <string name="author">Author:</string>
+    <string name="author_id">Author Id:</string>
+    <string name="tags">Tags:%1$s</string>
+    <string name="title">Title:%1$s</string>
+    <string name="published">Published:%1$s</string>
+    <string name="date_taken">Date Taken:%1$s</string>
+    <string name="tags_detail">Tags:</string>
+    <string name="published_detail">Published date:</string>
+    <string name="date_taken_detail">Date taken:</string>
+    <string name="date_taken_bottom_sheet">Date taken</string>
+    <string name="no_tag_present">No tag present</string>
 </resources>

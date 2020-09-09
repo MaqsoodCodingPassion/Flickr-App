@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_10"
+        android:text="@string/sort_by"
+        android:textSize="@dimen/sp_16"
+        android:fontFamily="@font/roboto_slab_regular"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/published"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_10"
+        android:drawablePadding="@dimen/size_10"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:drawableStart="@android:drawable/ic_menu_day"
+        android:text="@string/published_date"
+        android:textSize="@dimen/sp_18"
+         />
+
+    <TextView
+        android:id="@+id/datetaken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_10"
+        android:drawablePadding="@dimen/size_10"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:drawableStart="@android:drawable/ic_menu_day"
+        android:text="@string/date_taken_bottom_sheet"
+        android:textSize="@dimen/sp_18"
+         />
+
+
+</LinearLayout>

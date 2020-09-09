@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/flickr_photo_list"/>
+
+
+        <com.miguelcatalan.materialsearchview.MaterialSearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_slab_bold" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/selected_tag"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_48"
+        android:layout_below="@id/frame_layout"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/roboto_slab_regular"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/size_16"
+        android:paddingRight="@dimen/size_16"
+        android:text="@string/search_str"
+        android:textSize="@dimen/sp_16" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/photosRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_below="@id/selected_tag" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="@dimen/size_50"
+        android:layout_height="@dimen/size_50"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/noItemsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/roboto_slab_regular"
+        android:gravity="center_horizontal"
+        android:text="@string/no_photos_available"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/sort_option"
+        android:layout_width="@dimen/size_50"
+        android:layout_height="@dimen/size_50"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/size_20"
+        android:contentDescription="@string/flickr"
+        android:src="@android:drawable/ic_menu_sort_by_size" />
+
+
+</RelativeLayout>

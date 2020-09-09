@@ -27,11 +27,7 @@ This application implements the following concepts :
 * [Glide][glide] for image loading
 * [MockWebServer][mockwebserver] for testing HTTP clients
 
-![Alt Text](https://imgur.com/a/3xdZXOr.png)
-![Alt Text](https://imgur.com/a/wDxxC9P.png)
+![Alt Text](https://i.imgur.com/3xdZXOr.png)
+![Alt Text](https://i.imgur.com/wDxxC9P.png)
 
-
-![Alt Text](https://i.imgur.com/BrJMTeP.png)
-![Alt Text](https://i.imgur.com/PiBAYEm.png)
-![Alt Text](https://i.imgur.com/Sk3wPvM.png)
 
